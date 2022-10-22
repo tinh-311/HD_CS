@@ -25,6 +25,10 @@ namespace BT_NhanCong.model
         /// </summary>
         public CNhancong()
         {
+            this.m_msnv = "";
+            this.m_tennv = "";
+            this.Loainhancong = LoaiNhanCong.KhongCoTayNghe;
+            this.m_songaycong = 0;
         }
 
         public CNhancong(string msnv, string tennv, LoaiNhanCong loainhancong, int songaycong)
